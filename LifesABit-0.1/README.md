@@ -1,4 +1,4 @@
-# Gate Guard (Chris version 2)
+# Gate Guard
 
 ### First-time setup instructions
 1. Ensure that you have `npm` and `maven` installed
