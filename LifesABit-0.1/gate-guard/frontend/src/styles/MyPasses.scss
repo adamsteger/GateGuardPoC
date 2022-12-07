@@ -1,0 +1,65 @@
+@import "../styles/main.scss";
+
+  .mypasses{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    &-header{
+      text-align: center;
+      text-decoration: underline;
+      font-size: 25pt;
+      margin-bottom: 15px;
+    }
+    &-body{
+      overflow-y: scroll;
+      box-shadow: 0px 0px 20px 10px #557b8b58;
+    }
+
+  }
+
+
+
+ 
+
+  .passList-container{
+    
+    display: flex;
+    justify-content: flex-start; 
+    flex-direction: column;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    column-gap: 15px;
+    // background-color: $accent-color-2;
+    .notLoggedInMessage {
+      margin-left: 5%;
+      margin-right: 5%;
+      text-align: center;
+    }
+  }
+
+  .createPass{
+
+    &-btn{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 100%;
+    background-color: $accent-color;
+    height: 50px;
+    width: 50px;
+    border: $accent-color-2 solid;
+    }
+
+    &-icon{
+      color: white;
+      height: 30px;
+      width: 30px;
+      margin: auto;
+
+    }
+
+
+  }

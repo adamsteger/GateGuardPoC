@@ -1,0 +1,65 @@
+@import "~bootstrap/scss/bootstrap";
+@import "react-bootstrap-range-slider/dist/react-bootstrap-range-slider.scss";
+@import "../styles/colors.scss";
+@import "../styles/NewPassModal.scss";
+
+.passComponentDiv {
+    color: $accent-color;
+    padding: 15px;
+}
+
+.expLine {
+    display: flex;
+    align-items: baseline;
+    svg {
+        color: $accent-color;
+        margin-right: 10px;
+    }
+}
+
+div.contentContainer div.modal-dialog {
+    div.modal-content {
+        background-color: $background-color;
+        border: none;
+    }
+    div.modal-footer {
+        border-top: none;
+    }
+}
+
+.passEditModal {
+    background-color: $background-color;
+    border: 1px solid $accent-color;
+    border-radius: 10px;
+    
+    .passEditForm {
+        background-color: $background-color;
+        input {
+            margin-bottom: 10px;
+            background-color: $background-color;
+            color: $base-color;
+            border-color: $accent-color;
+        }
+        .form-check-input:checked {
+            background-color: $accent-color;
+        }
+    }   
+}
+
+.blueButton {
+    background-color: $background-color !important;
+}
+
+.expDateOrUses {
+    color: $warning;
+}
+
+.dottedhr {
+    border: 1px solid $accent-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 90vw;
+    background-color: #00000000;
+}

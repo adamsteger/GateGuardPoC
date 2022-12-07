@@ -1,0 +1,30 @@
+@import "../styles/colors.scss";
+
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p, div, span, svg {
+  color: $base-color;
+}
+
+body {
+  background-color: $background-color !important;
+}
+
+.contentContainer {
+  padding: 20px;
+}
+
+.thickHr {
+  border-top: 2px;
+}
+
+@import "~bootstrap/scss/bootstrap";
+
+.guard-button {
+  color: white;
+  background-color: #757575;
+  display: flex;
+  width: fit-content;
+}

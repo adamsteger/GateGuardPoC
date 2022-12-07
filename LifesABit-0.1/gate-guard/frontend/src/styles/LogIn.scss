@@ -1,0 +1,54 @@
+@import "../styles/main.scss";
+
+.logInForm {
+  padding: 40px;
+  Button {
+    margin-top: 30px;
+    margin-right: 10px;
+  }
+  a {
+    color: $accent-color;
+    font-size: 13pt;
+  }
+  .centerRow {
+    display: flex;
+    justify-content: center;
+  }
+  .blueButton, .blueButton:active, .blueButton:enabled {
+    width: 70%;
+    background-color: $accent-color;
+    border-color: $accent-color;
+    border-radius: 12px;
+    color: black;
+    font-weight: bold;
+    color: $accent-color;
+  }
+  .blueButton:hover {
+    background-color: $accent-color-2;
+    border-color: $accent-color-2;
+  }
+  .form-label {
+    margin-top: 10px;
+  }
+  .form-control, .form-control:active, .form-control:enabled {
+    color: $gray;
+    background-color: $background-color;
+    border-radius: 0px;
+    border: none;
+    box-shadow: none;
+  }
+  .iconInInput {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-bottom: 1px solid $accent-color;
+    .icon {
+      color: $accent-color;
+      font-size: 15pt;
+      z-index: 2;
+    }
+  }
+  .redText {
+    color: $warning;
+  }
+}

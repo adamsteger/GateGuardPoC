@@ -1,0 +1,81 @@
+@import "~bootstrap/scss/bootstrap";
+@import "react-bootstrap-range-slider/dist/react-bootstrap-range-slider.scss";
+
+
+#musicButtonBox {
+    background-color: #616161;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.musicBtn, .musicBtn:focus, .musicBtn:hover, .musicBtn:active {
+    transition: none;
+    border: none;
+    outline: none !important;
+    box-shadow: none !important;
+    width: 50px;
+    height: 50px;
+}
+
+.musicBtn:hover {
+    background-color: #757575;
+}
+
+.positionBox {
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.timeText {
+    width: 40px;
+    padding: 0;
+}
+
+.volumeSliderContainer {
+    width: 28%;
+}
+
+.speakerIcon {
+    width: 20px;
+    margin-left: 20px;
+    padding: 0;
+}
+
+.songProgressBarContainer {
+    width: 210px;
+    height: 10px;
+    margin-right: 25px;
+    position: relative;
+}
+
+.songProgressBar {
+    background-color: #424242;
+    height: 10px;
+    width: 210px;
+    position: absolute;
+}
+
+.songProgressBarNew {
+    opacity: 0%;
+    width: 100%;
+    height: 10px;
+    width: 210px !important;
+    position: absolute;
+    margin-top: -15px;
+}
+
+// .volumeSlider:focus {
+//     outline: none;
+// }
+   
+.songProgressBarNew::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 0px !important;
+}
+   
+.songProgressBarNew::-moz-range-thumb {
+    // display: none !important;
+    width: 0px !important;
+}

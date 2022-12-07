@@ -1,0 +1,11 @@
+@import "../styles/colors.scss";
+@import "~bootstrap/scss/bootstrap";
+
+.navBar-icon{
+    height:12px;
+    width:12px;
+}
+
+.link{
+    color: $accent-color-2;
+}

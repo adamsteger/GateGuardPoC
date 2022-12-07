@@ -1,0 +1,43 @@
+.SearchButton {
+    margin: 20px;
+    text-align: left;
+}
+
+.tableData {
+    margin: 0px;
+    text-align: center;
+}
+
+.search {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.list {
+    padding: 0; 
+    list-style: none;
+    text-align: center;
+}
+
+.listItem {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+}
+
+.button button{
+    background-color: darkred;
+    color: white;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+  }
+  table tr th {
+    text-align: center;
+    background: none;
+    color: white;
+  }

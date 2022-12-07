@@ -1,0 +1,22 @@
+@import "~bootstrap/scss/bootstrap";
+@import "../styles/colors.scss";
+
+.newPassModal .modal-dialog .modal-content {
+    background-color: $background-color !important;
+    border: 1px solid $accent-color;
+    border-radius: 10px;
+    
+    .newPassForm {
+        background-color: $background-color;
+        .form-check-input:checked {
+            background-color: $accent-color;
+        }
+    }   
+}
+
+.newPassInput {
+    margin-bottom: 10px;
+    background-color: $background-color !important;
+    color: $gray  !important;
+    border-color: $accent-color  !important;
+}

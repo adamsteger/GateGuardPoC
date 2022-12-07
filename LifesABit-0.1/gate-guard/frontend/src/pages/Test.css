@@ -1,0 +1,55 @@
+/*.input_wrapper input {
+    padding: 0px 0px;
+    border-radius: 0px;
+    font-size: 18px;
+    margin: 20px
+}
+
+.input_wrapper input:focus {
+    outline: none;
+}
+
+.input_wrapper button {
+    background-color: darkblue;
+    color: white;
+    padding: 0px 8px;
+    font-size: 18px;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    margin-left: 0px;
+    cursor: text;
+}
+
+.body_item {
+    color: black;
+    text-align: left !important;
+    background-color: lightgray;
+    border: 0px solid lightgray;
+    padding: 20px;
+    width: 200;
+    margin: 20px auto;
+}
+
+.notFound {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid lightgray;
+    text-align: left;
+}
+
+.user_remove button {
+    background-color: darkred;
+    color: white;
+    padding: 0px 8px;
+    font-size: 18px;
+    border: 2px solid darkred;
+    border-radius: 5px;
+    margin-left: 0px;
+    cursor: text;
+    text-align: right;
+}
+
+p {
+    color: black;
+}*/

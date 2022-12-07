@@ -1,0 +1,27 @@
+.Settings{
+    height: 10vh;
+    background-color: floralwhite;
+    
+}
+
+.bar_input input {
+    -webkit-appearance: none;
+    height: 0.5em;
+    background:grey;
+    border-radius:10px;
+    background-image:linear-gradient(darkblue, darkblue);
+    background-repeat: no-repeat;
+    margin-top: 1em;
+
+
+}
+
+.bar_input input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: darkblue;
+    border-radius:50%;
+    cursor: pointer;
+
+}

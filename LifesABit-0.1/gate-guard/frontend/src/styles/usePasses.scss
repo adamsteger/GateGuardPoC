@@ -1,0 +1,36 @@
+@import "../styles/main.scss";
+
+.usePassContainerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.background-red {
+  background-color: #C62828;
+}
+
+.background-green {
+  background-color: $accent-color;
+}
+
+.background-gray {
+  background-color: $background-color;
+}
+
+.usePassLabel {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.loadingDiv {
+  justify-content: center;
+}
+
+@keyframes spinnerAnimation {
+  to {transform: rotate(360deg);}
+}
+
+.spinner {
+  animation: spinnerAnimation 1.3s linear infinite;
+}
